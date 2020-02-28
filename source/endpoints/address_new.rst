@@ -29,7 +29,7 @@
     :<json int expires_in: the address expiration time in seconds; default is ``null`` which means
         no expiration
     :resheader Content-Type: application/json
-    :statuscode 200: no error
+    :statuscode 201: address created
     :statuscode 401: address and access token don't match
     :>json int account_index: the index of wallet's account the address belongs to (also known as *major index*)
     :>json boolean active: flag indicating whether the address is being actively monitored for
